@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#board{
+    background-color: #FCE22A;
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+}
+#scoreBoard{
+    height: 30px;
+    width: 40px;
+}
+.snake-head{
+    background-color: #f53d05;
+    border: 2px;
+    border-color: black;
+    border-radius: 15px;
+}
+.snake-body{
+    background-color: #ec1c84;
+    border-radius: 15px;
+}
+.food{
+    background-color: #50eb2a;
+    border-radius: 15px;
+}
